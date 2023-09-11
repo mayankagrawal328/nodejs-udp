@@ -11,4 +11,4 @@ server.on('listening', () => {
   console.log(`Server is listening on ${address.address}:${address.port}`);
 });
 
-server.bind(12345); // Bind to port 12345 on all available interfaces
+server.bind(0); // Bind to any available port on all interfaces
